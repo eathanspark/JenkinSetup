@@ -12,14 +12,25 @@ namespace WinServiceDemo
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        static void Main()
+        //static void Main()
+        //{
+        //    ServiceBase[] ServicesToRun;
+        //    ServicesToRun = new ServiceBase[]
+        //    {
+        //        new Service1()
+        //    };
+        //    ServiceBase.Run(ServicesToRun);
+        //}
+
+        static void Main(string[] args)
         {
-            ServiceBase[] ServicesToRun;
-            ServicesToRun = new ServiceBase[]
-            {
-                new Service1()
-            };
-            ServiceBase.Run(ServicesToRun);
+            Console.WriteLine($"Program started with args {args}");
+
+            //var application = new Bootstrap();
+            //application.Start<Startable>();
+
+            //application.Resolver.Resolve<Startable>().Start();
+            //GenerateXML();
         }
     }
 }
