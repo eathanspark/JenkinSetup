@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WinServiceDemo.Interfaces;
 
-namespace WinServiceDemo
+namespace WinServiceDemo.Bootstarp
 {
     public class Startable : IStartable
     {
@@ -16,7 +12,9 @@ namespace WinServiceDemo
         }
         public void Start()
         {
+            int exitCode = 0;
             this._commonSchedular.Start();
+            Environment.ExitCode = exitCode;
         }
         public void Stop()
         {

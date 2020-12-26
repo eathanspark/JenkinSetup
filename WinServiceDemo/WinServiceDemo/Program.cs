@@ -1,36 +1,35 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.ServiceProcess;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Extensions.DependencyInjection;
+using System;
+using Topshelf;
+using WinServiceDemo.Bootstarp;
 
 namespace WinServiceDemo
 {
     static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        //static void Main()
-        //{
-        //    ServiceBase[] ServicesToRun;
-        //    ServicesToRun = new ServiceBase[]
-        //    {
-        //        new Service1()
-        //    };
-        //    ServiceBase.Run(ServicesToRun);
-        //}
 
         static void Main(string[] args)
         {
-            Console.WriteLine($"Program started with args {args}");
+            var services = ServiceDependency.ConfigureServices();
+            var serviceProvider = services.BuildServiceProvider();
 
-            //var application = new Bootstrap();
-            //application.Start<Startable>();
+            var rc = HostFactory.Run(x =>
+            {
+                x.Service<Startable>(s =>
+                {
+                    s.ConstructUsing(name => serviceProvider.GetService<Startable>());
+                    s.WhenStarted(tc => tc.Start());
+                    s.WhenStopped(tc => tc.Stop());
+                });
+                x.RunAsLocalSystem();
 
-            //application.Resolver.Resolve<Startable>().Start();
-            //GenerateXML();
+                x.SetDescription("Windows Service Demo");
+                x.SetDisplayName("WinServiceDemo");
+                x.SetServiceName("WinServiceDemo");
+            });
+
+            var exitCode = (int)Convert.ChangeType(rc, rc.GetTypeCode());
+            Environment.ExitCode = exitCode;
         }
     }
 }
