@@ -1,4 +1,4 @@
-# .Net CI/CD Pipeline with Jenkin
+# Build Script Project for Building & Deploying .Net Solution Using Jenkin, MSBuild, PowerShell
 
 - Step 1: Jenkin Installation and Testing on localhost:8080
 - Step 2: Creating Windows service in VS 2019
