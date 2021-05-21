@@ -1,4 +1,4 @@
-# Build Script Project for Building & Deploying .Net Solution Using Jenkin, MSBuild, PowerShell
+# Build Script Project for Building & Deploying .Net Solution Using Jenkin, MSBuild and PowerShell Script
 
 - Step 1: Jenkin Installation and Testing on localhost:8080
 - Step 2: Creating Windows service in VS 2019
