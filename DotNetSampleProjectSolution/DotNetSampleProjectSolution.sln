@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30011.22
+VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinServiceDemo", "WinServiceDemo\WinServiceDemo.csproj", "{293A18CB-856B-46C1-8B3B-0005723E10DF}"
 EndProject
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {772A4E21-D69B-444D-BBD5-7E0D250E3277}
+		SolutionGuid = {4A68E386-0702-4B1A-BA57-36EA8F2570EE}
 	EndGlobalSection
 EndGlobal
