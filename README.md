@@ -1,6 +1,6 @@
 ﻿# **Build Script Project for Building & Deploying .Net Solution Using Jenkins, MSBuild and Power Shell Script**
 
-- **Step 1:** Jenkins Server Installation and Testing on localhost:8080.
+- [**Step 1:** Jenkins Server Installation and Testing on localhost:8080.](https://github.com/eathanspark/JenkinSetup#step1-jenkins-server-installation-and-testing-on-localhost8080)
 - **Step 2:** Jenkins Plug-in installation.
 - **Step 3:** Create .Net Sample Project.
 - **Step** **4:** Create MSBuild Script Project for build & deployment .
