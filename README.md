@@ -60,9 +60,9 @@ Go to Dashboard click on Manage Jenkins then click on Manage Plugins it will red
 
 Here you might find the error in red color even if you will navigate to the available tab there also you will find the same error, so to solve this issue you have two options 
 
-\1) Install an SSL Certificate for connecting to Jenkins a secure service (SSL/TLS).
+ 1) Install an SSL Certificate for connecting to Jenkins a secure service (SSL/TLS).
 
-\2) Another quick way is to simply update site from https to http. Choose **Manage Jenkins->Plugin Manager->Advanced**
+ 2) Another quick way is to simply update site from https to http. Choose **Manage Jenkins->Plugin Manager->Advanced**
 
 You will see the following update site default:
 
