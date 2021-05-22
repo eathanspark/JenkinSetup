@@ -22,15 +22,15 @@ Go to <https://www.jenkins.io/download/> and download stable windows installer
 ### **Installation steps** 
 Go to download folder and double click on jenkins.msi and follow the steps below
 
-![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.001.png)
+![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.001.png)
 
-![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.002.png) ![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.003.png)
+![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.002.png) ![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.003.png)
 
-![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.004.png) 
+![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.004.png) 
 
-![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.005.png)
+![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.005.png)
 
-![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.006.png) ![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.007.png) ![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.008.png) ![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.009.png)
+![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.006.png) ![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.007.png) ![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.008.png) ![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.009.png)
 
 Once installation is completed, Open web  browser and type http://localhost:8080/ in address bar, you will see screen like below.. then wait for a while it will ask for first time login password .
 
@@ -38,25 +38,25 @@ Go to the password file location as below copy password and click continue.
 
 C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\secrets\initialAdminPassword
 
-![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.010.png)
+![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.010.png)
 
-![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.011.png)
+![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.011.png)
 
 Skip Plugin Installation for now and create first admin user.
 
-![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.012.png)
+![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.012.png)
 
-![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.013.png)
+![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.013.png)
 
-![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.014.png)
+![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.014.png)
 
-![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.015.png)
+![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.015.png)
 
-![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.016.png)
+![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.016.png)
 ## **Step 2: Jenkins MSBuild & Git Plugins installation**
 Go to Dashboard click on Manage Jenkins then click on Manage Plugins it will redirect to plugins installation page like below
 
-![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.017.png)
+![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.017.png)
 
 Here you might find the error in red color even if you will navigate to the available tab there also you will find the same error, so to solve this issue you have two options 
 
@@ -76,15 +76,15 @@ You are done!
 
 Now If you click on Available Tab you will found the different types of plugins available like below
 
-![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.018.png)
+![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.018.png)
 ### **MSBuild & Git Plugins installation**
 #### ***Set JDK Path***
 Go to the Dashboard and click on Manage jenkins then Click on Global Tool Configuration 
 
 In JDK section click Add JDK, Add jdk home path details whatever version install on your machine like below and click Save
 
-![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.019.png)
+![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.019.png)
 
 ` `Search MSBuild & Git plugin, Check both checkbox and click on Install without restart
 
-` `![](Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.020.png)
+` `![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.020.png)
