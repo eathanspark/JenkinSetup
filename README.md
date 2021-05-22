@@ -53,7 +53,7 @@ Skip Plugin Installation for now and create first admin user.
 ![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.015.png)
 
 ![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.016.png)
-## **Step 2: Jenkins MSBuild & Git Plugins installation**
+## **[Step 2: Jenkins MSBuild & Git Plugins installation](http://)**
 Go to Dashboard click on Manage Jenkins then click on Manage Plugins it will redirect to plugins installation page like below
 
 ![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.017.png)
