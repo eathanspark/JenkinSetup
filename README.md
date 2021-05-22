@@ -6,7 +6,7 @@
 - **Step** **4:** Create MSBuild Script Project for build & deployment .
 - **Step 5**: Create Jenkins Job to build and deploy .Net Sample Project using build script project.
 - **Step 6:** Run Jenkins Job and Verify the deployment.
-## ` `**Step1: Jenkins Server Installation and Testing on localhost:8080**
+## **Step1: Jenkins Server Installation and Testing on localhost:8080**
 ### **Prerequisites:**
 Minimum hardware requirements:
 
