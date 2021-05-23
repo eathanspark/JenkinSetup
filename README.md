@@ -1,4 +1,9 @@
-# **Build Script Project for Building & Deploying .Net Solution Using Jenkins, MSBuild and Power Shell Script**
+# **Jenkins Build Script Project for Building & Deploying .Net Solution Using MSBuild and Power Shell Script**
+
+I have gone through internet to find a concrete solution to build and deployment a enterprise level .net solution using Jenkins. I found lots of article that say create a Jenkins job chose project type define build type deployment steps etc. But I am not satisfied with articles because it is not common practice, single .net solution can have multiple project of different kind like library, web application, utility, windows service , database project and these need to build and deploy on different location. So maintaining lots of Jenkins jobs for different activity is a tedious task.
+Then I found a article in Microsoft Documentation website for creating a build script project there we can define multiple targets having multiple steps and in each steps/target we can execute windows command or power shell script and easily we can modify as per our requirement. 
+So Let's begin.... 
+Main objective of this article is to create a build script project that will use in one of the Jenkins job to build & deploy a .Net Solution having different kind of projects let say one is .Net core with angular application and second one is a windows service. We will deploy .Net Core application on IIS and win service application on already install service. 
 
 - [**Step 1:** Jenkins Server Installation and Testing on http://localhost:8080.](https://github.com/eathanspark/JenkinSetup#step1-jenkins-server-installation-and-testing-on-localhost8080)
 - [**Step 2:** Jenkins Plug-in installation.](https://github.com/eathanspark/JenkinSetup#step-2-jenkins-msbuild--git-plugins-installation)
