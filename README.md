@@ -6,7 +6,7 @@
 - **Step** **4:** Create MSBuild Script Project for build & deployment .
 - **Step 5**: Create Jenkins Job to build and deploy .Net Sample Project using build script project.
 - **Step 6:** Run Jenkins Job and Verify the deployment.
-## **[Step1: Jenkins Server Installation and Testing on http://localhost:8080](http://)**
+## **[Step1: Jenkins Server Installation and Testing on http://localhost:8080](https://github.com/eathanspark/JenkinSetup#build-script-project-for-building--deploying-net-solution-using-jenkins-msbuild-and-power-shell-script)**
 ### **Prerequisites:**
 Minimum hardware requirements:
 
@@ -53,7 +53,7 @@ Skip Plugin Installation for now and create first admin user.
 ![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.015.png)
 
 ![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.016.png)
-## **[Step 2: Jenkins MSBuild & Git Plugins installation](https://github.com/eathanspark/JenkinSetup#step-2-jenkins-msbuild--git-plugins-installation)**
+## **[Step 2: Jenkins MSBuild & Git Plugins installation](https://github.com/eathanspark/JenkinSetup#build-script-project-for-building--deploying-net-solution-using-jenkins-msbuild-and-power-shell-script)**
 Go to Dashboard click on Manage Jenkins then click on Manage Plugins it will redirect to plugins installation page like below
 
 ![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.017.png)
