@@ -115,6 +115,6 @@ I have created one sample .Net Solution "**DotNetSampleProjectSolution**" having
 **Git Location: [**https://github.com/eathanspark/JenkinSetup/tree/master/DotNetSampleProjectSolution/WinServiceDemo](https://github.com/eathanspark/JenkinSetup/tree/master/DotNetSampleProjectSolution/WinServiceDemo)**
 
 **Note :** My jenkins server (hhtp://localhost:8080) and deployment server both are on same machine so it is litile bit confusing now but belive me it will be more cleare as progress in the blog. 
-## [**Step 4: Create MSBuild Script Project for build & deployment](#_Jenkins_Build_Script)** 
+## [**Step 4: Create MSBuild Script Project for build & deployment**](#_Jenkins_Build_Script)
 
 
