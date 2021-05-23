@@ -96,3 +96,25 @@ In JDK section click Add JDK, Add jdk home path details whatever version install
 ` `Search MSBuild & Git plugin, Check both checkbox and click on Install without restart
 
 ` `![](https://github.com/eathanspark/JenkinSetup/blob/master/Blog/Aspose.Words.96546ce1-2e58-4a21-b422-8af2c0b242b9.020.png)
+
+## [**Step 3: Create .Net Sample Project**](#_Jenkins_Build_Script)
+I have created one sample .Net Solution "**DotNetSampleProjectSolution**" having two project for build & deployment.
+
+**Project 1:** [CoreSampleWebApplication](https://github.com/eathanspark/JenkinSetup/tree/master/DotNetSampleProjectSolution/CoreSampleWebApplication "CoreSampleWebApplication")(.NET Core + Angular)
+
+**Deploy Location:** http://localhost:9090/
+
+**Physical Location:** F:\JenkinsDeployment\IIS\CoreSampleWebApplication
+
+**Git Location: [**https://github.com/eathanspark/JenkinSetup/tree/master/DotNetSampleProjectSolution/CoreSampleWebApplication](https://github.com/eathanspark/JenkinSetup/tree/master/DotNetSampleProjectSolution/CoreSampleWebApplication)**
+
+**Project 2:** [WinServiceDemo](https://github.com/eathanspark/JenkinSetup/tree/master/DotNetSampleProjectSolution/WinServiceDemo "WinServiceDemo") (.NET Core Windows Service)
+
+**Physical Location:** F:\JenkinsDeployment\WindowsService\WinServiceDemo\bin
+
+**Git Location: [**https://github.com/eathanspark/JenkinSetup/tree/master/DotNetSampleProjectSolution/WinServiceDemo](https://github.com/eathanspark/JenkinSetup/tree/master/DotNetSampleProjectSolution/WinServiceDemo)**
+
+**Note :** My jenkins server (hhtp://localhost:8080) and deployment server both are on same machine so it is litile bit confusing now but belive me it will be more cleare as progress in the blog. 
+## [**Step 4: Create MSBuild Script Project for build & deployment](#_Jenkins_Build_Script)** 
+
+
